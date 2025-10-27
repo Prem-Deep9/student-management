@@ -1,0 +1,54 @@
+[server]
+enableStaticServing = true
+
+[[theme.fontFaces]]
+family = "SpaceGrotesk"
+url = "app/static/SpaceGrotesk-VariableFont_wght.ttf"
+
+[[theme.fontFaces]]
+family = "SpaceMono"
+url = "app/static/SpaceMono-Bold.ttf"
+style = "normal"
+weight = 700
+
+[[theme.fontFaces]]
+family = "SpaceMono"
+url = "app/static/SpaceMono-BoldItalic.ttf"
+style = "italic"
+weight = 700
+
+[[theme.fontFaces]]
+family = "SpaceMono"
+url = "app/static/SpaceMono-Italic.ttf"
+style = "italic"
+weight = 400
+
+[[theme.fontFaces]]
+family = "SpaceMono"
+url = "app/static/SpaceMono-Regular.ttf"
+style = "normal"
+weight = 400
+
+[theme]
+backgroundColor = "#fafaf7"
+secondaryBackgroundColor = "#E5E4DF"    
+primaryColor = "#CC785C"
+showSidebarBorder = true
+textColor = "#40403E"
+linkColor = "#40403E"
+borderColor = "#666663"
+showWidgetBorder = true
+baseRadius = "0.75rem"
+buttonRadius = "full"
+font = "SpaceGrotesk"
+headingFontWeights = [600,500,500,500,500,500]
+headingFontSizes = ["3rem", "2rem"]
+codeFont = "SpaceMono"
+codeFontSize = ".75rem"
+codeBackgroundColor = "#E5E4DF"
+dataframeBorderColor = "#E5E4DF"
+dataframeHeaderBackgroundColor = "#E5E4DF"
+
+[theme.sidebar]
+backgroundColor = "#f0f0eb"
+secondaryBackgroundColor = "#D4A27F"
